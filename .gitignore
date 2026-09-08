@@ -1,0 +1,28 @@
+# Pythonのキャッシュファイル
+__pycache__/
+*.py[cod]
+*$py.class
+
+# 仮想環境（EC2やローカルの実行環境フォルダ）
+py36/
+venv/
+myvenv/
+env/
+.env
+
+# データベース（開発データや個人データが含まれるため除外)
+*.sqlite3
+db.sqlite3
+
+# 静的ファイルの集約先・アップロード画像
+static_collected/
+media/
+pics/
+
+# NginxやGunicornのソケットファイル・ログ
+*.sock
+*.log
+
+# エディタやOSの自動生成ファイル
+.vscode/
+.DS_Store
